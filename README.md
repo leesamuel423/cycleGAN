@@ -35,6 +35,25 @@ CycleGAN consists of:
    - Translated images saved in `outputs/`
    - Uses the final model checkpoint by default
 
+## Example Results
+
+Here are some side-by-side comparisons of the translations from horses (domain A) to zebras (domain B) using the epoch 10 checkpoint (cherry-picked):
+
+### Example 1: n02381460_800.jpg
+| Original (Horse) | Translated (Zebra) |
+|:---:|:---:|
+| ![Original](dataset/testA/n02381460_800.jpg) | ![Translated](outputs/n02381460_800.jpg) |
+
+### Example 2: n02381460_1300.jpg
+| Original (Horse) | Translated (Zebra) |
+|:---:|:---:|
+| ![Original](dataset/testA/n02381460_1300.jpg) | ![Translated](outputs/n02381460_1300.jpg) |
+
+### Example 3: n02381460_470.jpg
+| Original (Horse) | Translated (Zebra) |
+|:---:|:---:|
+| ![Original](dataset/testA/n02381460_470.jpg) | ![Translated](outputs/n02381460_470.jpg) |
+
 ## Notes
 
 CycleGAN uses three types of losses:
